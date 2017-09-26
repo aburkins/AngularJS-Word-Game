@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 23, 2016, 1:09:42 AM
+    Author     : Ayana Burkins
+*/
+body{
+    background-color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input.ng-invalid{
+    background-color: red;
+}
+
+.search-bar{
+    
+    padding: 50px;
+}
+.main{
+    text-align: center;
+
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main p{
+    font-size: 50px;
+}
+.input-div{
+    text-align: center;
+    /*background-color:#33cc33;*/
+    padding:30px;
+    margin-bottom: 50px;
+}
+input[type=text] {
+    /*background-color: #33cc33;*/
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    
+}
+.guessesArea{
+    /*background-color: #666699;*/
+    color: black;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#prev_guesses{
+    float:left;
+    max-width: 450px;
+}
+#num_guesses{
+    float:right;
+}
